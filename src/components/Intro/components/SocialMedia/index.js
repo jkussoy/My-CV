@@ -19,7 +19,7 @@ const SocialMedia = () => {
       }
     });
 
-    return () => unsubscribe(); // Cleanup saat unmount
+    return () => unsubscribe();
   }, []);
   return (
     <div className="social">

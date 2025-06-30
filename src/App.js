@@ -12,14 +12,9 @@ function App() {
   return (
     <div>
       <Intro />
-      {/* ABOUT SECTION */}
       <About />
-      {/* SKILLS SECTION */}
       <Skills />
-
-      {/* TIMELINE SECTION */}
       <Timeline />
-      {/* FOOTER SECTION */}
       <Footer />
     </div>
   );

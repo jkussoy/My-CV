@@ -1,3 +1,5 @@
+import SocialMedia from "../Intro/components/SocialMedia";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -38,39 +40,10 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-md-4">
-            <div className="social">
-              <a
-                href="https://www.instagram.com/joshuaakussoy/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-instagram fa-3x" />
-              </a>
-              {/* <a href="http://www.dribbble.com/izzydoesizzy" target="_blank">
-                            <i class="fa fa-dribbble fa-3x"></i>
-                          </a> */}
-              <a
-                href="https://www.linkedin.com/in/joshua-kussoy-3165002ba/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-linkedin fa-3x" />
-              </a>{" "}
-              <a
-                href="https://github.com/jkussoy"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-github fa-3x" />
-              </a>
-            </div>{" "}
-            {/* /social footer */}
+            <SocialMedia />
           </div>{" "}
-          {/* /col-md-4 */}
         </div>
-        {/* /row */}
       </div>
-      {/* /container */}
     </footer>
   );
 };

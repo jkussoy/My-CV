@@ -20,7 +20,6 @@ const Intro = () => {
           </a>
         </div>
       </div>
-      {/* /intro */}
     </section>
   );
 };
